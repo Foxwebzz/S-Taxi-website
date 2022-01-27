@@ -34,7 +34,7 @@ body {
     align-items: center;
 }
 
-.logo-text span {
+.green-letter {
     color: #3bb143 ;
 }
 nav {
@@ -87,8 +87,8 @@ nav {
 }
 
 .hero-section {
-    background: url("../images/bg.jpg");
-    height: 120vh;
+    background: url("../images/bg22.jpg");
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -104,7 +104,7 @@ nav {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.helk {
+.content-hero {
 color: #f1f1f1;
   position: absolute;
   top: 50%;
@@ -114,6 +114,15 @@ color: #f1f1f1;
   width: 80%;
   padding: 20px;
   text-align: center;
+}
+.content-hero h1 {
+    font-size: 100px;
+}
+.content-hero h3 {
+    font-size: 50px;
+}
+.content-hero button {
+    margin-top: 20px;
 }
 
 /* End Home */
